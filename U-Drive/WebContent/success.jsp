@@ -14,7 +14,7 @@
 </head>
 <body>
  <div class="container w-50 border border-dark border-5 mt-5">
- <h3>Id : ${dto.id}</h3>
+ 
 <h3>User Name : ${dto.userName}</h3>
 <h3>Phone Number : ${dto.phoneNumber}</h3>
 <h3>Email : ${dto.email}</h3>

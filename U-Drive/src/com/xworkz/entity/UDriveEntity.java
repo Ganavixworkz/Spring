@@ -1,4 +1,4 @@
-package com.xworkz.dto;
+package com.xworkz.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -7,16 +7,16 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.NoArgsConstructor;
-
+@Entity
 @Data
-@AllArgsConstructor
-@NoArgsConstructor
+@Table(name="udrive_info")
+public class UDriveEntity {
 
-public class UDriveDto {
-
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name="d_id")
+private int id;
 private String userName;
 private long phoneNumber;
 private String email;
@@ -26,5 +26,6 @@ private int duration;
 private String userDl;
 private double amount;
 private String address;
+
 
 }

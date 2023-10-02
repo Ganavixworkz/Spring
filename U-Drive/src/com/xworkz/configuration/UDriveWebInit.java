@@ -22,5 +22,4 @@ public class UDriveWebInit extends AbstractAnnotationConfigDispatcherServletInit
 		// TODO Auto-generated method stub
 		return new String[] {"/"};
 	}
-
 }
