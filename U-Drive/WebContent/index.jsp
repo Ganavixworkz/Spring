@@ -11,8 +11,9 @@
  integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
   crossorigin="anonymous">
   </head>
-
-<body>
+<body style="background-image: url('https://images-platform.99static.com//W-zdZtSIM-aLebS-gSHS3O9uhM0=/89x676:879x1466/fit-in/500x500/99designs-contests-attachments/66/66554/attachment_66554399');
+background-repeat: no-repeat;
+  background-size: 1500px 665px;">
 
 <form action="save" method="post">
 <nav class="navbar navbar-expand-lg bg-secondary">
@@ -41,6 +42,7 @@
     </div>
   </div>
 </nav>
+<br>
 <marquee><h2>WELCOME TO U-DRIVE</h2></marquee>
 
   <div class="container text-center">
@@ -48,8 +50,8 @@
     <div class="col">
       
     </div>
-    <img src="https://images-platform.99static.com//W-zdZtSIM-aLebS-gSHS3O9uhM0=/89x676:879x1466/fit-in/500x500/99designs-contests-attachments/66/66554/attachment_66554399" alt="Bootstrap" width="800" height="500">
-    <div class="col">
+<!--   <img src="https://images-platform.99static.com//W-zdZtSIM-aLebS-gSHS3O9uhM0=/89x676:879x1466/fit-in/500x500/99designs-contests-attachments/66/66554/attachment_66554399" alt="Bootstrap" width="3500" height="450">
+ -->   <div class="col">
      
   
     </div>
@@ -58,6 +60,17 @@
     </div>
   </div>
 </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br><br><br><br><br><br><br><br>
 <%@include file="footer.jsp" %>
 
 </body>
